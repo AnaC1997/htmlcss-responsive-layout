@@ -1,0 +1,97 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.card-big{
+    min-height: 600px;
+   
+}
+
+.card-small{
+    min-height: 300px;
+   
+}
+
+.card-medium{
+    min-height: 400px;
+   
+}
+
+.container,
+.card-medium,
+.card-small,
+.title-benefits,
+.paragraph-about{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/*Header*/
+
+.header-space{
+    gap: 300px;
+}
+
+/*main*/
+
+.img-planning1{
+    width: 100%;
+}
+
+.img-aboutUs{
+    width: 40%;
+    border-radius: 110px;
+}
+
+
+/*Strategic Planing Section*/
+
+/************************************************
+    UTILITIES
+ ************************************************/
+
+.flex{
+    display: flex;
+}
+
+
+/*padding*/
+
+.p16{
+    padding: 1rem;    
+}
+
+/*margin*/
+.mb1-5{
+    margin-bottom: 1.5rem;
+}
+
+.mb2-5{
+    margin-bottom: 2.5rem;
+}
+/*color*/
+.b-c-blueElettrico{ background-color: #0084FD; }
+
+.b-c-blue{ background-color: #B5DDFF; }
+
+.b-c-violet{ background-color: #9792E4; }
+
+.b-c-white{ background-color: white; }
+
+.b-c-black{ background-color: black; }
+
+.white{ color: white; }
