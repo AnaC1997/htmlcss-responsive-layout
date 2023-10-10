@@ -19,7 +19,6 @@ body{
 
 .card-small{
     min-height: 300px;
-   
 }
 
 .card-medium{
@@ -28,6 +27,7 @@ body{
 }
 
 .container,
+.card-big,
 .card-medium,
 .card-small,
 .title-benefits,
@@ -40,6 +40,26 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+
+.btn {
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+img{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+    gap: 2rem;
+}
 /*Header*/
 
 .header-space{
@@ -48,17 +68,64 @@ a{
 
 /*main*/
 
+.border-radius{
+    border-radius: 30px;
+}
+/*demo section*/
+
+.tex-demo{
+    text-align: justify;
+    
+}
+
+.fas-demo{
+    font-size: 50px;
+}
+
+/* Strategic Planning Section*/
+
 .img-planning1{
     width: 100%;
 }
 
-.img-aboutUs{
-    width: 40%;
-    border-radius: 110px;
+.fa-arrow-down{
+    border-radius: 20px;
+    height: 40px ;
+    width: 40px;
+    
+    
+}
+/* Testimonials section*/
+
+.border-img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
 }
 
 
-/*Strategic Planing Section*/
+/*About Us Section*/
+.position-img{
+    position: relative;
+
+}
+.quote-img{
+    position: absolute;
+    right: 3;
+}
+
+.linkedin{
+    width: 70%;
+    height: auto;
+    padding: 10px 20px;
+}
+
+/*get Started Section*/
+.saffron{
+    font-size: 2rem;
+}
+
+
 
 /************************************************
     UTILITIES
@@ -71,18 +138,29 @@ a{
 
 /*padding*/
 
-.p16{
-    padding: 1rem;    
+.p16{ padding: 1rem; }
+
+.p-2rem{
+    padding: 0 2rem;
 }
+
+.p-top2{ padding-top: 2rem; }
+
+.p-top1{ padding-top: 1rem;}
+
+.p-b2{ padding-bottom: 2rem;}
 
 /*margin*/
-.mb1-5{
-    margin-bottom: 1.5rem;
-}
+.mb1-5{ margin-bottom: 1.5rem; }
 
-.mb2-5{
-    margin-bottom: 2.5rem;
-}
+.mb2-5{ margin-bottom: 2.5rem; }
+
+.m-block2{ margin-block: 2rem;}
+
+.m-top2{ margin-top: 2rem}
+
+.m-top4{ margin-top: 4rem}
+
 /*color*/
 .b-c-blueElettrico{ background-color: #0084FD; }
 
@@ -95,3 +173,13 @@ a{
 .b-c-black{ background-color: black; }
 
 .white{ color: white; }
+
+.dodger-blue{ color: #0084FD;}
+
+.c-lavender{ color: #A19CE6;}
+
+.lavender-blue{ color:#B6B4EC;}
+
+.periwinkle{ color: #9792E4;}
+
+.saffron{ color: #FDC15F;}
