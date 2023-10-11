@@ -2,28 +2,28 @@
     GENERAL STYLES
  *************************************************/
 
-*{
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: sans-serif;
 }
 
-.card-big{
+.card-big {
     min-height: 600px;
-   
+
 }
 
-.card-small{
+.card-small {
     min-height: 300px;
 }
 
-.card-medium{
+.card-medium {
     min-height: 400px;
-   
+
 }
 
 .container,
@@ -31,12 +31,12 @@ body{
 .card-medium,
 .card-small,
 .title-benefits,
-.paragraph-about{
+.paragraph-about {
     max-width: 90%;
     margin: 0 auto;
 }
 
-a{
+a {
     text-decoration: none;
     cursor: pointer;
 }
@@ -49,55 +49,59 @@ a{
     cursor: pointer;
     border-radius: 20px;
 }
-img{
+
+img {
     width: 100%;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.container{
+.container {
     gap: 2rem;
 }
+
 /*Header*/
 
-.header-space{
+.header-space {
     gap: 300px;
 }
 
 /*main*/
 
-.border-radius{
+.border-radius {
     border-radius: 30px;
 }
+
 /*demo section*/
 
-.tex-demo{
+.tex-demo {
     text-align: justify;
-    
+
 }
 
-.fas-demo{
+.fas-demo {
     font-size: 50px;
 }
 
 /* Strategic Planning Section*/
 
-.img-planning1{
+.img-planning1 {
     width: 100%;
 }
 
-.fa-arrow-down{
+.fa-arrow-down {
     border-radius: 20px;
-    height: 40px ;
+    height: 40px;
     width: 40px;
-    
-    
+
+
 }
+
 /* Testimonials section*/
 
-.border-img{
+.border-img {
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -105,23 +109,24 @@ img{
 
 
 /*About Us Section*/
-.position-img{
+.position-img {
     position: relative;
 
 }
-.quote-img{
+
+.quote-img {
     position: absolute;
     right: 3;
 }
 
-.linkedin{
+.linkedin {
     width: 70%;
     height: auto;
     padding: 10px 20px;
 }
 
 /*get Started Section*/
-.saffron{
+.saffron {
     font-size: 2rem;
 }
 
@@ -131,55 +136,238 @@ img{
     UTILITIES
  ************************************************/
 
-.flex{
+.flex {
     display: flex;
 }
 
 
 /*padding*/
 
-.p16{ padding: 1rem; }
+.p16 {
+    padding: 1rem;
+}
 
-.p-2rem{
+.p-2rem {
     padding: 0 2rem;
 }
 
-.p-top2{ padding-top: 2rem; }
+.p-top2 {
+    padding-top: 2rem;
+}
 
-.p-top1{ padding-top: 1rem;}
+.p-top1 {
+    padding-top: 1rem;
+}
 
-.p-b2{ padding-bottom: 2rem;}
+.p-b2 {
+    padding-bottom: 2rem;
+}
 
 /*margin*/
-.mb1-5{ margin-bottom: 1.5rem; }
+.mb1-5 {
+    margin-bottom: 1.5rem;
+}
 
-.mb2-5{ margin-bottom: 2.5rem; }
+.mb2-5 {
+    margin-bottom: 2.5rem;
+}
 
-.m-block2{ margin-block: 2rem;}
+.m-block2 {
+    margin-block: 2rem;
+}
 
-.m-top2{ margin-top: 2rem}
+.m-top2 {
+    margin-top: 2rem
+}
 
-.m-top4{ margin-top: 4rem}
+.m-top4 {
+    margin-top: 4rem
+}
 
 /*color*/
-.b-c-blueElettrico{ background-color: #0084FD; }
+.b-c-blueElettrico {
+    background-color: #0084FD;
+}
 
-.b-c-blue{ background-color: #B5DDFF; }
+.b-c-blue {
+    background-color: #B5DDFF;
+}
 
-.b-c-violet{ background-color: #9792E4; }
+.b-c-violet {
+    background-color: #9792E4;
+}
 
-.b-c-white{ background-color: white; }
+.b-c-white {
+    background-color: white;
+}
 
-.b-c-black{ background-color: black; }
+.b-c-black {
+    background-color: black;
+}
 
-.white{ color: white; }
+.white {
+    color: white;
+}
 
-.dodger-blue{ color: #0084FD;}
+.dodger-blue {
+    color: #0084FD;
+}
 
-.c-lavender{ color: #A19CE6;}
+.c-lavender {
+    color: #A19CE6;
+}
 
-.lavender-blue{ color:#B6B4EC;}
+.lavender-blue {
+    color: #B6B4EC;
+}
 
-.periwinkle{ color: #9792E4;}
+.periwinkle {
+    color: #9792E4;
+}
 
-.saffron{ color: #FDC15F;}
+.saffron {
+    color: #FDC15F;
+}
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width:1024px) {
+
+    .container,
+    .card-big,
+    .card-medium,
+    .card-small,
+    .title-benefits,
+    .paragraph-about {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Demo section*/
+    .containerDemo {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    .demo {
+        width: 60%;
+    }
+
+    .code {
+        width: 30%;
+    }
+
+    .web {
+        width: 30%;
+
+    }
+
+    .development {
+        width: 30%;
+    }
+
+    .branding {
+        width: 30%;
+    }
+
+    .card-medium,
+    .card-big,
+    .card-small {
+        margin-bottom: 16px;
+    }
+
+    /* Benefits section*/
+
+    .containerBenefits {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quality,
+    .team,
+    .results,
+    .pricing,
+    .innovation,
+    .support {
+        width: 45%;
+    }
+
+    /* About section*/
+    .containerSection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item1{
+        width: 45%;
+    }
+
+    .item2{
+        width: 45%;
+    }
+}
+
+
+/*Media Query Desktop*/
+
+@media screen and (min-width: 1024px) and (max-width:1920px) {
+    body {
+        background-color: yellow;
+    }
+    /* Demo section*/
+
+
+    .demo-text,
+    .containerDemo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .text-demo{
+        width: 100%;
+        
+    }
+
+    .demo-img{
+        width: 40%;
+    }
+
+   
+
+    .demo-text{
+        width: 40%;
+    }
+
+    .code{
+        width: 30%;
+    }
+
+
+    /* Testimonials Section*/
+    .containerTestimonials{
+        width: calc(90% -16px); /*Controllare codice*/
+    }
+
+     /* Benefits section*/
+
+     .containerBenefits {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .quality,
+    .team,
+    .results,
+    .pricing,
+    .innovation,
+    .support {
+        width: 30%;
+    }
+
+
+}
