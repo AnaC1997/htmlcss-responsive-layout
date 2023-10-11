@@ -12,19 +12,7 @@ body {
     font-family: sans-serif;
 }
 
-.card-big {
-    min-height: 600px;
 
-}
-
-.card-small {
-    min-height: 300px;
-}
-
-.card-medium {
-    min-height: 400px;
-
-}
 
 .container,
 .card-big,
@@ -42,6 +30,7 @@ a {
 }
 
 .btn {
+    display: inline-block;
     width: auto;
     height: auto;
     padding: 10px 20px;
@@ -52,22 +41,39 @@ a {
 
 img {
     width: 100%;
+    display: block;
 }
 
 .text-center {
     text-align: center;
 }
 
-.container {
-    gap: 2rem;
-}
 
 /*Header*/
 
-.header-space {
-    gap: 300px;
+header {
+    height: 80px;
 }
 
+.header-space {
+    height: 100%;
+    justify-content: space-between;
+}
+
+.iconaHeader{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-header{
+    display: flex;
+    align-items: center;
+    width: 70px;
+}
+header nav{
+    display: none;
+}
 /*main*/
 
 .border-radius {
@@ -96,8 +102,8 @@ img {
     height: 40px;
     width: 40px;
 
-
 }
+
 
 /* Testimonials section*/
 
@@ -111,13 +117,21 @@ img {
 /*About Us Section*/
 .position-img {
     position: relative;
+    display: inline-block;
+
+
 
 }
 
-.quote-img {
+.quote-img  {
     position: absolute;
-    right: 3;
+    top: 0;
+    right: 0;
+    font-size: 40px;
 }
+
+
+
 
 .linkedin {
     width: 70%;
@@ -256,11 +270,13 @@ img {
     }
 
     .demo {
-        width: 60%;
+        width: calc(64% - 16px);
+        margin: 16px ;
     }
 
     .code {
-        width: 30%;
+        width:  calc(31% - 16px);
+        margin: 16px;
     }
 
     .web {
@@ -276,11 +292,6 @@ img {
         width: 30%;
     }
 
-    .card-medium,
-    .card-big,
-    .card-small {
-        margin-bottom: 16px;
-    }
 
     /* Benefits section*/
 
@@ -311,6 +322,7 @@ img {
     .item2{
         width: 45%;
     }
+
 }
 
 
@@ -320,34 +332,53 @@ img {
     body {
         background-color: yellow;
     }
+
+    /* Header section*/
+
+    header .iconaHeader{
+        display: none;
+    }
+    header nav{
+        display: flex;
+        align-content: flex-end;
+    }
+
+    header a{
+        color: white;
+    }
     /* Demo section*/
 
-
-    .demo-text,
+    
     .containerDemo{
         display: flex;
         flex-wrap: wrap;
     }
     
-    .text-demo{
-        width: 100%;
-        
+    .demo{
+        width: 63%;
+        padding: 0;
+        margin: 0 auto;
+
     }
-
-    .demo-img{
-        width: 40%;
-    }
-
-   
-
-    .demo-text{
-        width: 40%;
-    }
-
+    
     .code{
         width: 30%;
     }
 
+    .web,
+    .development,
+    .branding{
+        width: 30%;
+    }
+
+    .demo-text{
+        display: flex;
+        height: 100%;
+        
+    }
+    
+
+   
 
     /* Testimonials Section*/
     .containerTestimonials{
