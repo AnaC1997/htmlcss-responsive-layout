@@ -330,7 +330,7 @@ header nav{
 
 @media screen and (min-width: 1024px) and (max-width:1920px) {
     body {
-        background-color: yellow;
+        background-color: rgb(249, 249, 244);
     }
 
     /* Header section*/
